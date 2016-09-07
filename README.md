@@ -48,7 +48,7 @@ x
 
 - Connect app to OneDrive
 	- x
-	-
+	
 - Connect app to OneDrive for Business
 
 ### Outlook Graph
@@ -56,6 +56,7 @@ x
 X
 
 ### Microsoft Graph
+
 - REST call to return a list items shared with the signed-in user https://graph.microsoft.com/v1.0/me/drive/sharedWithMe
 - Graph queries can be tested here: https://graph.microsoft.io/en-us/graph-explorer
 
