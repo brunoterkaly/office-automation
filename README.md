@@ -54,4 +54,5 @@ X
 
 ### Microsoft Graph
 - REST call to return a list items shared with the signed-in user https://graph.microsoft.com/v1.0/me/drive/sharedWithMe
+- ![](./images/snap1001.png)
 - Graph queries can be tested here: https://graph.microsoft.io/en-us/graph-explorer
