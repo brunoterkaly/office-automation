@@ -46,7 +46,10 @@ x
 
 ### OneDrive
 
-- 
+- Connect app to OneDrive
+	- x
+	-
+- Connect app to OneDrive for Business
 
 ### Outlook Graph
 
