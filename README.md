@@ -11,6 +11,33 @@ We will address in this post:
 - Outlook Graph
 	- Lookup information (name, contact info, pictures)
 
+### Prerequisites
+
+#### Install Node
+
+[https://nodejs.org/en/](https://nodejs.org/en/)
+
+![](./images/snap00001.png)
+
+_Figure 1: Installing Windows_
+
+![](./images/snap0002.png)
+
+_Figure 2: Testing Node_
+
+
+#### Install NPM
+
+[http://t.umblr.com/redirect?z=http%3A%2F%2Fnodejs.org%2F&t=ZmM2MTQyYTgxMjg3ZDM1ZGU5MDI1YWQ0Yjc5OGU1MTU5MWIxMjYyMSxENW01czlHRg%3D%3D](http://t.umblr.com/redirect?z=http%3A%2F%2Fnodejs.org%2F&t=ZmM2MTQyYTgxMjg3ZDM1ZGU5MDI1YWQ0Yjc5OGU1MTU5MWIxMjYyMSxENW01czlHRg%3D%3D "Install NPM")
+
+
+#### Install Office Generator
+
+
+`npm install -g tsd bower gulp yo generator-office`	
+
+[https://www.npmjs.com/package/generator-office ](https://www.npmjs.com/package/generator-office )
+
 
 
 ### Outlook Add-in
