@@ -12,3 +12,15 @@ We will address in this post:
 	- Lookup information (name, contact info, pictures)
 
 
+
+## Outlook Add-in
+
+x
+
+## OneDrive
+
+x
+
+## Outlook Graph
+
+x
