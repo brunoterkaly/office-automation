@@ -25,16 +25,34 @@ _Figure 1: Installing Windows_
 
 _Figure 2: Testing Node_
 
+Run the command line as **administrator**.
 
-#### Install NPM
+![](./images/snap0003.png)
 
-[http://t.umblr.com/redirect?z=http%3A%2F%2Fnodejs.org%2F&t=ZmM2MTQyYTgxMjg3ZDM1ZGU5MDI1YWQ0Yjc5OGU1MTU5MWIxMjYyMSxENW01czlHRg%3D%3D](http://t.umblr.com/redirect?z=http%3A%2F%2Fnodejs.org%2F&t=ZmM2MTQyYTgxMjg3ZDM1ZGU5MDI1YWQ0Yjc5OGU1MTU5MWIxMjYyMSxENW01czlHRg%3D%3D "Install NPM")
+_Figure 3: Running Node Command line_
 
 
 #### Install Office Generator
 
+This did not work well on Windows.
 
-`npm install -g tsd bower gulp yo generator-office`	
+Installed a newer version of NPM as follows:
+
+
+    npm install npm -g
+
+
+
+    npm install -g tsd bower gulp yo generator-office
+
+On my system I had to install individually:
+    
+    npm install -g tsd
+    npm install -g bower
+    npm install -g yo
+    npm install -g generator-office
+    
+
 
 [https://www.npmjs.com/package/generator-office ](https://www.npmjs.com/package/generator-office )
 
@@ -42,7 +60,24 @@ _Figure 2: Testing Node_
 
 ### Outlook Add-in
 
-x
+Now that we've got the prerequisites taken care of, let's turn our attention to the generator. We will use the generator to create a **Mail Add-In**. The generator will create a file called **gulpfile.js**. it will leverage an HTTPS server with a self signed SSL certificate, so that you can use and test your add-in from the command line.
+
+We will now create the Outlook Mail Add-In.
+
+![](./images/snap0004.png)
+
+_Figure 4: _
+
+We will use angular as the code base.
+
+
+![](./images/snap0005.png)
+
+_Figure 5:  x_
+
+Choose the default option by hitting enter for the remaining questions.
+
+
 
 ### OneDrive
 
