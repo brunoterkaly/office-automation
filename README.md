@@ -46,8 +46,12 @@ x
 
 ### OneDrive
 
-x
+- 
 
 ### Outlook Graph
 
-x
+### Microsoft Graph
+
+- https://graph.microsoft.io/en-us/graph-explorer
+- Can use REST call with Microsoft Graph to get documents shared with currently logged in user with the following command:
+	- https://graph.microsoft.com/v1.0/me/drive/sharedWithMe
