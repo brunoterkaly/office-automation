@@ -81,8 +81,19 @@ Choose the default option by hitting enter for the remaining questions.
 
 ### OneDrive
 
-x
+- Connect app to OneDrive
+	- x
+	-
+- Connect app to OneDrive for Business
 
 ### Outlook Graph
 
-x
+X
+
+### Microsoft Graph
+- REST call to return a list items shared with the signed-in user https://graph.microsoft.com/v1.0/me/drive/sharedWithMe
+- Graph queries can be tested here: https://graph.microsoft.io/en-us/graph-explorer
+
+![](./images/snap1001.png)
+
+_Figure x: Microsoft Graph Explorer_
