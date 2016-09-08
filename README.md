@@ -36,13 +36,9 @@ _Figure 3: Running Node Command line_
 
 This did not work well on Windows.
 
-Installed a newer version of NPM as follows:
-
+Installed a newer version of NPM as well as the rest of the packages:
 
     npm install npm -g
-
-
-
     npm install -g tsd bower gulp yo generator-office
 
 On my system I had to install individually:
@@ -50,12 +46,10 @@ On my system I had to install individually:
     npm install -g tsd
     npm install -g bower
     npm install -g yo
+    npm install -g gulp
     npm install -g generator-office
     
-
-
 [https://www.npmjs.com/package/generator-office ](https://www.npmjs.com/package/generator-office )
-
 
 
 ### Outlook Add-in
@@ -64,18 +58,46 @@ Now that we've got the prerequisites taken care of, let's turn our attention to 
 
 We will now create the Outlook Mail Add-In.
 
-![](./images/snap0004.png)
 
-_Figure 4: _
+![](./images/snap0006.png)
 
-We will use angular as the code base.
+_Figure 4: Accept all defaults_
+
+Continue to hit "enter" and accept all defaults. When you are through, you will see this:
+
+![](./images/snap0007.png)
+
+_Figure 5: The completed project files_
+
+#### Start the gulp server
+
+At the command line, type the following:
+
+	gulp serve-static
+
+![](./images/snap0008.png)
+
+_Figure 8: Start gulp server_
 
 
-![](./images/snap0005.png)
+#### Navigate to http://localhost:8443
 
-_Figure 5:  x_
+![](./images/snap0009.png)
 
-Choose the default option by hitting enter for the remaining questions.
+_Figure 9: Start a browser session_
+
+Choose **appcompose**, then **home**, followed by **home.html.**
+
+
+![](./images/snap0010.png)
+
+_Figure 10: Home screen for the session_
+
+
+
+
+https://technet.microsoft.com/en-us/library/cc754841.aspx
+
 
 
 
@@ -97,3 +119,14 @@ X
 ![](./images/snap1001.png)
 
 _Figure x: Microsoft Graph Explorer_
+
+
+
+
+Publish in Office Store (browse in store and add)
+Partner to talk to Office Store Team (follow process)
+
+Gulp is oneway - some ability to serve web files
+Can put on IIS on localmachine - just need a web server - Visual Studio 2015 (cassini)
+Azure Web App - Upload 
+Dialog API - Office 365 and for consumer users
